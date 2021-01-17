@@ -108,13 +108,13 @@ We have mentioned previously that one of the major reasons to use DeepAR is the 
 
 After model training, we implement a DeepAR predictor to save the prediction result in Panda dataframe instead of JSON format. We can look at the forecast including the confidence interval of the violation at each individual address(camera). For more visualization and prediction, feel free to check the python script. 
 
-![Prediction Forecast 1]()
+![Prediction Forecast 1](https://github.com/frankcj6/DeepAR_RNN_Time_Series_Forecasting/blob/main/Forecast_Sample_1.PNG)
 
 *_Figure 3 Sample Prediction 1_
-![Prediction Forecast 2]()
+![Prediction Forecast 2](https://github.com/frankcj6/DeepAR_RNN_Time_Series_Forecasting/blob/main/Forecast_Sample_2.PNG)
 
 *_Figure 4 Sample Prediction 2_
-![Prediction Forecast 3]()
+![Prediction Forecast 3](https://github.com/frankcj6/DeepAR_RNN_Time_Series_Forecasting/blob/main/Forecast_Sample_3.PNG)
 
 *_Figure 5 Sample Prediction 3_
 
