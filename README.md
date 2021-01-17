@@ -25,7 +25,7 @@ Created by Frank Jiang
  
  ### Data Source
  
-The dataset being used in this project are from [city of Chicago Red Light camera Violations](https://data.cityofchicago.org/Transportation/Red-Light-Camera-Violations/spqx-js37). This data is currently hosted by [Chicago Data Portal](http://www.cityofchicago.org/city/en/depts/cdot/supp_info/red-light_cameraenforcement.html). This dataset records the daily volume of violations created by the City of Chicago Red Light Program for each camera. 
+The dataset being used in this project are from [City of Chicago Red Light camera Violations](https://data.cityofchicago.org/Transportation/Red-Light-Camera-Violations/spqx-js37). This data is currently hosted by [Chicago Data Portal](http://www.cityofchicago.org/city/en/depts/cdot/supp_info/red-light_cameraenforcement.html). This dataset records the daily volume of violations created by the City of Chicago Red Light Program for each camera. 
  
  ### Preprocessing
  
