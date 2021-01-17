@@ -102,7 +102,7 @@ endpoint_name = Tunning.deploy(initial_instance_count=1,
 
 We have mentioned previously that one of the major reasons to use DeepAR is the multiple time series in this dataset. Therefore, we graph the initial visualization of the time series of the red light camera violations. 
 
-![Initial Time Series Visualization](../blob/master/Time_Series_Plot.PNG)
+![Initial Time Series Visualization](../blob/master/Time_Series_Plot.PNG?raw=true)
 
 *_Figure 2 Initial Visualization_
 
