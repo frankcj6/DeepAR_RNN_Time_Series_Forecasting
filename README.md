@@ -76,6 +76,7 @@ role = sagemaker.get_execution_role()
 DeepAR algorithm has its foundation on recurrent neural network (RNN), a class of artificial neural networks where connections between nodes form a directed graph along a temporal sequence. This allows it to exhibit temporal dynamic behavior. This Algorithm developed by Amazon tailors a LSTM-based RNN architecture that implements a series of gates in which information is either passed or forgotten. Instead of just passing on a hidden state h, it also passes on a long term state c. DeepAR model allows simultaneous training of many related time-series and implements an encoder-decoder setup common in sequence-to-sequence models. This algorithm first training an encoder network on the whole data range, then outputting an initial state h. This state is then used to transfer information about the range to the prediction range through a decoder network. 
 
 ![Algorithm Explaination](https://miro.medium.com/max/3600/0*9xUS6MMxz3hCz2f7.png)
+
 *_Figure 1 DeepAR Algorithm_
 
 ## Training
@@ -101,16 +102,20 @@ endpoint_name = Tunning.deploy(initial_instance_count=1,
 
 We have mentioned previously that one of the major reasons to use DeepAR is the multiple time series in this dataset. Therefore, we graph the initial visualization of the time series of the red light camera violations. 
 
-![Initial Time Series Visualization](./Time_Series.PNG)
+![Initial Time Series Visualization](../blob/master/Time_Series.PNG)
+
 *_Figure 2 Initial Visualization_
 
 After model training, we implement a DeepAR predictor to save the prediction result in Panda dataframe instead of JSON format. We can look at the forecast including the confidence interval of the violation at each individual address(camera). For more visualization and prediction, feel free to check the python script. 
 
 ![Prediction Forecast 1]()
+
 *_Figure 3 Sample Prediction 1_
 ![Prediction Forecast 2]()
+
 *_Figure 4 Sample Prediction 2_
 ![Prediction Forecast 3]()
+
 *_Figure 5 Sample Prediction 3_
 
 
