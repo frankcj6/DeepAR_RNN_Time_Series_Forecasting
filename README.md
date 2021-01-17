@@ -31,7 +31,7 @@ The dataset being used in this project are from [City of Chicago Red Light camer
  
  The dataset itself are mostly cleaned. However, there are 2 issues that needs to be processed before training. First, the duplicate index exist in the address column. Because there might be several red light cameras at the same cross road, we aggregate the address with the camera id as the index to avoid the problem of duplicate index. 
  Also, DeepAR model takes the input of a json format file with two columns, 'start'(time index) and target variable. Therefore, we encode our processed csv file into json format file. We use the following encoding and decoding method for csv to json file conversion in Sagemaker. 
-  ```console
+  ```python
 def series_2_obj(series, cat=None):
     obj = {'start': str(series.index[0]), 'target': list(series)}
     if cat:
