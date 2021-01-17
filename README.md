@@ -101,7 +101,7 @@ endpoint_name = Tunning.deploy(initial_instance_count=1,
 
 We have mentioned previously that one of the major reasons to use DeepAR is the multiple time series in this dataset. Therefore, we graph the initial visualization of the time series of the red light camera violations. 
 
-![Initial Time Series Visualization]()
+![Initial Time Series Visualization](Time_Series_Plot.png)
 
 After model training, we implement a DeepAR predictor to save the prediction result in Panda dataframe instead of JSON format. We can look at the forecast including the confidence interval of the violation at each individual address(camera). For more visualization and prediction, feel free to check the python script. 
 
